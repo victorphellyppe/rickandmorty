@@ -1,0 +1,54 @@
+
+.episode-detail {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.episode-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.episode-info {
+  margin-bottom: 20px;
+}
+
+.characters-list {
+  margin-top: 20px;
+}
+
+.character-item {
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #e0e0e0;
+  border-radius: 3px;
+}
+
+.episode-detail a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.episode-detail a:hover {
+  text-decoration: underline;
+}
+
+.back-button {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}

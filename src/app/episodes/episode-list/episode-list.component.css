@@ -1,0 +1,43 @@
+
+.episode-item {
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.episode-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.episode-title {
+  margin: 0;
+  font-size: 1.5em;
+  color: #343a40;
+}
+
+.episode-info {
+  margin-top: 10px;
+  color: #6c757d;
+  font-size: 0.9em;
+  /* display: flex; */
+  /* margin-left: 10px; */
+}
+
+.character-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.character-list li {
+  display: inline-block;
+  background-color: #e9ecef;
+  color: #495057;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 4px;
+  font-size: 0.8em;
+}
