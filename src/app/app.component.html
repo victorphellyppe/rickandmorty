@@ -11,6 +11,10 @@
     <a routerLink="/locations" routerLinkActive="active">Locations</a>
   </nav>
 
+  <div class="search-container">
+    <input type="text" placeholder="Search for an episode..." (input)="onSearch($event)" />
+  </div>
+
   <main>
     <router-outlet></router-outlet>
   </main>

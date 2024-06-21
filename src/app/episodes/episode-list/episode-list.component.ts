@@ -13,6 +13,9 @@ export class EpisodeListComponent implements OnInit {
   episodes: any[] = [];
   episode: Episode | undefined;
   isDetail: boolean = false;
+  loading: boolean = false;
+  currentPage: boolean = false;
+
 
   constructor(private episodeSvc: EpisodeService, private router: Router) {}
 

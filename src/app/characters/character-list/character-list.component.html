@@ -1,1 +1,6 @@
-<h1>Character List</h1>
+<div>
+<h1 class="text-center">Character List</h1>
+<section *ngFor="let c of characteres">
+  <app-character [character]="c" ></app-character>
+</section>
+</div>

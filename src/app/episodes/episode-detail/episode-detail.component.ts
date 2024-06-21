@@ -35,4 +35,9 @@ export class EpisodeDetailComponent implements OnInit {
     this.router.navigate(['/episodes']);
   }
 
+  openCharacter(url: any) {
+    console.log(url, 'Opa');
+    this.router.navigate(['/character', url]);
+  }
+
 }

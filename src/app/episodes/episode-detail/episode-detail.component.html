@@ -13,7 +13,7 @@
   <div class="characters-list">
     <h3>Characters:</h3>
     <ul>
-      <li *ngFor="let url of characteres">
+      <li *ngFor="let url of characteres" (click)="openCharacter(url)">
         <a [href]="url" target="_blank">{{ url }}</a>
       </li>
     </ul>
